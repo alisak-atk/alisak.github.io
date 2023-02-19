@@ -1,0 +1,383 @@
+/*#header{
+    display: flex;
+    align-items: center;
+    padding: 10px 80px;
+    background-color: #fbf6f0;
+    box-shadow: 0 5px 15px rgb(0, 0, 0,0.0);
+   
+    Wrong
+}*/
+
+#imagedesign{
+    display: flex;
+    align-items: center;
+    padding-left: 72px;
+}
+#imagedesign nav{
+    color: rgb(32, 31, 31);
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+#Hyper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#Hyper li{
+   list-style: none;
+   padding: 0px 20px;
+   color: rgb(160, 160, 159);
+   font-size: small;
+   
+}
+
+#main{
+    height: 600px;
+    width: 100%;
+    background-color: #fbf6f0;
+    padding: 10px;
+}
+#submain{
+    height: 300px;
+    width: 100%;
+    background-color: #fcf4fd;
+    padding: 1px;
+}
+
+#subsubmain{
+    height: 200px;
+    width: 100%;
+    background-color: #fbf6f0;
+    padding: 1px;
+}
+
+#main h5{
+    color: #a678fe;
+    padding-left: 72px;
+}
+
+#font1 {
+    font-size: 30px; 
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 72px;
+    margin-bottom: -25px;
+}
+
+#line1 {
+    position: relative;
+    bottom: 280px;
+    left: 160px;
+
+}
+
+#font2 {
+    font-size: 30px; 
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 72px;
+    margin-bottom: -63px;
+}
+
+.font1line ::after {
+    content: "";
+    width: 100%;
+    height: 5px;
+    background-color: #a678fe;
+    position: absolute;
+    bottom: 0;
+    
+    
+}
+
+#font3 {
+    font-size: 30px; 
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 72px;
+    margin-bottom: -27px;
+    display: flex;
+    align-items: center;
+    
+}
+#font3 nav{
+    color: #a678fe;
+
+}
+#font4{
+    color: rgb(160, 160, 159);
+    padding-left: 72px;
+    
+    
+}
+
+.btna{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    font-weight: bold;
+    background: #a678fe;
+    height: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+    margin-left: 70px;
+    margin-right: 20px;
+    
+}
+.btna1{
+    margin-bottom: -5px;
+    margin-left: 15px;
+
+}
+
+.imagecircle img{
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.im1{
+    position: relative;
+    left: 65px;
+    top: 10px;
+}
+.im2{
+    position: relative; 
+    left: 38px;
+    top: 10px;
+}
+.im3{
+    position: relative;
+    left: 18px;
+    top: 10px;
+}
+.follow{
+    position: relative;
+    left: 200px;
+    bottom: 60px;
+}
+.follow h3{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.follow p{
+    color: rgb(160, 160, 159);
+    font-size: 10px;
+    margin-top: -8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.SUS{
+    position: relative;
+    left: 599px;
+    bottom: 350px;
+}
+.RickRoll{
+    position: relative;
+    left: 800px;
+    bottom: 975px;
+}
+.subfont{
+    text-align: center;
+    margin-top: 50px;
+}
+.subfont h1{
+    font-size: 30px;
+    width: bold;
+    margin-bottom: -4px;
+}
+.subfont p{
+    font-size: 12px;
+    color: rgb(160, 160, 159);
+   
+}
+.subfont a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    font-weight: bold;
+    background: #a678fe;
+    height: 10px;
+    padding: 8px 27px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+    position: relative;
+    top: 10px;
+}
+.subfont svg{
+    width: 14px;
+    height: 14px;
+    position: relative;
+    top: 13px;
+    right: 42px;
+}
+#box div{
+    width: 275px;
+    height: 150px;
+    border-radius: 7%;
+    
+}
+.box1{
+    background-color: #f46219; 
+    border: solid 1px black;
+    position: relative;
+    bottom: 70px;
+    left: 250px;
+}
+.box1 img{
+    position: relative;
+    bottom: 30px;
+    
+}
+.box1 h5{
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+    left: 140px;
+    bottom: 180px;
+}
+.box1 p{
+    font-size: 6px;
+    color: rgb(31, 31, 31);;
+    position: relative;
+    left: 140px;
+    bottom: 190px;
+}
+.box1 a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 6px;
+    font-weight: bold;
+    text-align: right;
+    background: black;
+    padding: 6px 17px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+    position: relative;
+    left: 140px;
+    bottom: 190px;
+    
+}
+.box1 svg{
+
+    width: 20px;
+   height: 10px;
+   position: relative;
+   left: 55px;
+   bottom: 192px;
+
+}
+
+.box2{
+    background-color: #f3a915; 
+    border: solid 1px black;
+    position: relative;
+    left: 350px;
+    bottom: 298px;
+}
+.box2 img{
+    position: relative;
+    bottom: 30px;
+    right: 10px;
+    
+}
+.box2 h5{
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+    left: 140px;
+    bottom: 180px;
+}
+.box2 p{
+    font-size: 6px;
+    color: rgb(31, 31, 31);;
+    position: relative;
+    left: 140px;
+    bottom: 190px;
+}
+.box2 a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 6px;
+    font-weight: bold;
+    text-align: right;
+    background: black;
+    padding: 6px 17px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+    position: relative;
+    left: 140px;
+    bottom: 190px;
+    
+}
+.box2 svg{
+
+    width: 20px;
+   height: 10px;
+   position: relative;
+   left: 55px;
+   bottom: 192px;
+
+}
+
+.box3{
+    background-color: #0aeedf; 
+    border: solid 1px black;
+    position: relative;
+    left: 350px;
+    bottom: 298px;
+    
+}
+.box3 img{
+    position: relative;
+    bottom: 30px;
+    
+}
+.box3 h5{
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+    left: 140px;
+    bottom: 180px;
+}
+.box3 p{
+    font-size: 6px;
+    color: rgb(31, 31, 31);;
+    position: relative;
+    left: 140px;
+    bottom: 190px;
+}
+.box3 a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 6px;
+    font-weight: bold;
+    text-align: right;
+    background: black;
+    padding: 6px 17px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+    position: relative;
+    left: 140px;
+    bottom: 190px;
+    
+}
+.box3 svg{
+
+    width: 20px;
+   height: 10px;
+   position: relative;
+   left: 55px;
+   bottom: 192px;
+
+}
